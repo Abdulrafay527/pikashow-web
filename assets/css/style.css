@@ -1,0 +1,31 @@
+
+.bg-color{
+    background-color: #f5f5f5;
+    /* padding: 5px  0px; */
+    /* border-bottom: 1px solid #f5f5f5; */
+}
+
+.logo-1{
+    background-color: #ffff;
+    padding: 12px 12px;
+   box-shadow: 0 0 7px 1px #666666;
+}
+
+.logo-2{
+    border: solid 2px #dedede;
+    padding: 10px 10px;
+  
+
+}
+
+.logo-tag:hover{
+  opacity: 0.2;
+}
+
+.logo-tag{
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.7);
+-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.7);
+-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.7);
+margin: 9px 5px;
+}
+

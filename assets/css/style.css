@@ -175,6 +175,7 @@ margin: 9px 5px;
       text-align: center;
       background-color: #919191;
        color: #fff;
+       letter-spacing: 1px;
     }
     .li-set-1{
        padding: 20px 30px;
@@ -423,7 +424,7 @@ margin: 9px 5px;
     }
 
     .img-width{
-      /* max-width: 281.19px; */
+      max-width: 281.19px;
     }
 
 
@@ -666,7 +667,7 @@ margin: 9px 5px;
 
     .li-news{
       font-size: 16px;
-      font-weight: 600;
+      font-weight: 500;
       color: #ffff;
       text-decoration: none;
       letter-spacing: 1px;
@@ -853,3 +854,44 @@ margin: 9px 5px;
         height: 149.95px;
        background: #f48fb1; 
    }
+
+   .lcompany-heading{
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffff;
+
+   }
+
+
+
+   .social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+/* Individual colors */
+.social-icons a.facebook    { background-color: #3b5998; }
+.social-icons a.youtube     { background-color: #ff0000; }
+.social-icons a.twitter     { background-color: #1da1f2; }
+.social-icons a.instagram   { background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
+.social-icons a.pinterest   { background-color: #bd081c; }
+
+.social-icons a:hover {
+    transform: scale(1.1);
+}
+
+  

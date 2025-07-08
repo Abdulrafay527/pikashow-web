@@ -423,14 +423,15 @@ margin: 9px 5px;
     }
 
     .img-width{
-      max-width: 281.19px;
+      /* max-width: 281.19px; */
     }
 
 
     .section-set-1{
-       max-width: 281.19px;
+       /* max-width: 281.19px; */
        background-color: #ee6b2f;
        padding: 11px 0px;
+       margin-top: -10px;
     }
 
     .section-set-1:hover{
@@ -455,8 +456,9 @@ margin: 9px 5px;
 
     .section-set-2{
       background-color: #855ac9;
-       max-width: 281.19px;
+       /* max-width: 281.19px; */
         padding: 11px 0px;
+        margin-top: -10px;
     }
 
 
@@ -466,9 +468,10 @@ margin: 9px 5px;
 
 
     .section-set-3{
-       max-width: 281.19px;
+       /* max-width: 281.19px; */
         padding: 11px 0px;
         background-color: #e6bc2f;
+        margin-top: -10px;
     }
 
 
@@ -485,8 +488,9 @@ margin: 9px 5px;
 
     .section-set-4{
       background-color: #4dad5b;
-       max-width: 281.19px;
+       /* max-width: 281.19px; */
         padding: 11px 0px;
+        margin-top: -10px;
     }
 
 
@@ -496,8 +500,9 @@ margin: 9px 5px;
 
     .section-set-5{
       background-color: #ff90c4;
-       max-width: 281.19px;
+       /* max-width: 281.19px; */
         padding: 11px 0px;
+        margin-top: -10px;
     }
 
     .section-set-5:hover{
@@ -506,8 +511,9 @@ margin: 9px 5px;
 
     .section-set-6{
       background-color: #1b53ba;
-       max-width: 281.19px;
+       /* max-width: 281.19px; */
         padding: 11px 0px;
+        margin-top: -10px;
     }
 
      .section-set-6:hover{
@@ -520,16 +526,18 @@ margin: 9px 5px;
 
      .section-set-7{
       background-color: #ee6b2f;
-       max-width: 281.19px;
+       /* max-width: 281.19px; */
         padding: 11px 0px;
+        margin-top: -10px;
      }
 
 
      .section-set-8{
       background-color: #30a7d7;
-       max-width: 281.19px;
+       /* max-width: 281.19px; */
         padding: 11px 0px;
         border-bottom-right-radius: 30px;
+
      }
 
       .section-set-8:hover{

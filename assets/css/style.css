@@ -68,8 +68,9 @@ margin: 9px 5px;
 
 .bg-color-1{
   background-color: #313131;
-  width: 281.08px;
+  /* width: 281.08px; */
  padding: 20px 10px;
+ margin-top: -10px;
 }
 
 .bg-color-1:hover{
@@ -92,11 +93,13 @@ margin: 9px 5px;
 
 .bg-style{
   background-color: #ff90c4;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;
-  padding: 10px 15px;
-  height: 180.95px;
-  width: 230.19px;
+  border-bottom-right-radius: 7px;
+  border-top-right-radius: 7px;
+  /* padding: 10px 15px; */
+  /* height: 180.95px; */
+  /* width: 230.19px; */
+  width: 60%;
+   /* height: 149.95px; */
 }
 
 .bg-style:hover{
@@ -116,8 +119,9 @@ margin: 9px 5px;
 
 .bg-color-2{
   background-color: #C7AA79;
-  width: 281.08px;
+  /* width: 281.08px; */
  padding: 20px 10px;
+ margin-top: -10px;
 
 }
 
@@ -138,7 +142,7 @@ margin: 9px 5px;
 
 .bg-style-1{
   background-color: #E3350D;
-  width: 281.19px;
+  /* width: 281.19px; */
   padding: 20px 10px;
 }
 
@@ -864,34 +868,203 @@ margin: 9px 5px;
 
 
 
-   .social-icons {
-    display: flex;
-    gap: 15px;
-}
-
-.social-icons a {
-    width: 50px;
-    height: 50px;
-    background-color: #333;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    text-decoration: none;
-    font-size: 24px;
-    transition: 0.3s;
-}
-
-/* Individual colors */
-.social-icons a.facebook    { background-color: #3b5998; }
-.social-icons a.youtube     { background-color: #ff0000; }
-.social-icons a.twitter     { background-color: #1da1f2; }
-.social-icons a.instagram   { background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
-.social-icons a.pinterest   { background-color: #bd081c; }
-
-.social-icons a:hover {
-    transform: scale(1.1);
-}
-
   
+
+
+
+.icons-bg{
+  color: #ffff;
+  background-color: #3b5998;
+  padding: 4px 8px;
+  font-size: 22px;
+  border-radius: 3px;
+}
+
+.icons-bg:hover{
+  opacity: 0.8;
+}
+
+.icons-bg-1{
+  color: #ffff;
+  background-color: #ff0000;
+   padding: 4px 8px;
+  font-size: 22px;
+  border-radius: 3px;
+
+}
+
+
+.icons-bg-1:hover{
+  opacity: 0.8;
+}
+
+
+.icons-bg-2{
+   background-color: #1da1f2;
+   color: #ffff;
+    padding: 4px 8px;
+  font-size: 22px;
+  border-radius: 4px;
+}
+.icons-bg-2:hover{
+  opacity: 0.8;
+}
+
+
+.icons-bg-3{
+   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+   color: #ffff;
+    padding: 4px 8px;
+  font-size: 22px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.icons-bg-3:hover{
+  opacity: 0.8;
+}
+
+
+
+.icons-bg-4{
+   background-color: #bd081c;
+   color: #ffff;
+    padding: 4px 8px;
+  font-size: 22px;
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.icons-bg-4:hover{
+  opacity: 0.8;
+}
+
+
+
+
+.bg-border-right{
+  border-right: 2px solid #000000;
+ /* padding-right: 50px; */
+ margin-right: 30px;
+}
+
+.bg-border-right-1{
+  border-right: 2px solid #000000;
+}
+
+
+.footer-ul-2{
+  list-style: none;
+}
+
+
+.li-a-style{
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffff;
+  text-decoration: none;
+}
+
+.li-a-style:hover{
+  text-decoration: underline;
+}
+
+
+.span-style{
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffff;
+}
+
+
+.section-bg{
+  background-image: url('../images/body_bg.png');
+  /* width: 1351px; */
+}
+
+
+.bg-section-in{
+ background-color: #fff;
+ width: 1280px;
+ height: 2415px;
+
+}
+
+
+.section-bg-img{
+  background-image: url('../images/container_bg.png');
+   width: 1280px;
+    height: 2415px;
+
+}
+
+
+.img-in-color{
+  background-color: #ffff;
+  width: 900px;
+  height: 800px;
+
+}
+
+
+
+.card-color-1{
+  background-color: #C7AA79;
+  padding: 25px 20px;
+  margin-top: -10px;
+}
+
+.card-color-1:hover{
+  background-color: #b89355;
+}
+
+.Yanmega-10{
+  width: 280.09px;
+}
+
+
+.small-section-1{
+   background-color: #E3350D;
+   padding: 10px 10px;
+   margin-top: -10px;
+}
+
+.small-section-1:hover{
+   background-color: #b32a0a;
+}
+
+
+.bg-style-2{
+   background-color: #4dad5b;
+   padding: 23px 10px;
+   margin-top: -10px;
+}
+
+
+.bg-style-2:hover{
+  background-color: #369143;
+}
+
+
+.img-style-1{
+  width: 281.19px;
+}
+
+
+.width-img-section{
+   width: 281.19px;
+}
+
+
+.tcg-img{
+  width: 40%;
+  height: inherit;
+}
+
+
+.last-small-section{
+   width: 281.19px;
+}
+
+
+    

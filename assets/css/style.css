@@ -563,7 +563,7 @@ margin: 9px 5px;
 
       .footer-input-1{
         padding: 10px;
-        width: 408px !important;
+        width: 389px !important;
 
       }
 
@@ -622,6 +622,7 @@ margin: 9px 5px;
       color: #ffff;
       font-size: 16px;
       font-weight: 600;
+
     }
 
 
@@ -655,6 +656,14 @@ margin: 9px 5px;
     .a-set-1{
       color: #ffff;
       font-weight: 700;
+      font-size: 13px;
+    }
+
+     .a-set-2{
+      color: #ffff;
+      font-weight: 700;
+      font-size: 13px;
+      margin-left: 34px;
     }
 
     .company-heading{
@@ -670,11 +679,12 @@ margin: 9px 5px;
 
 
     .li-news{
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 500;
       color: #ffff;
       text-decoration: none;
       letter-spacing: 1px;
+      line-height: 30px;
     }
 
 
@@ -945,7 +955,7 @@ margin: 9px 5px;
 .bg-border-right{
   border-right: 2px solid #000000;
  /* padding-right: 50px; */
- margin-right: 30px;
+ /* margin-right: 30px; */
 }
 
 .bg-border-right-1{
@@ -971,7 +981,7 @@ margin: 9px 5px;
 
 
 .span-style{
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 500;
   color: #ffff;
 }
@@ -1076,6 +1086,8 @@ margin: 9px 5px;
    border-bottom-left-radius: 10px;
    border-bottom-right-radius: 10px;
 }
+
+
 
 
     

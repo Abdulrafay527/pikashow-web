@@ -13,10 +13,11 @@
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
-    <nav class="bg-color">
-            <div class="container">
+<div class="d-none d-lg-block">
+      <nav class="bg-color">
+            <div class="container d-flex justify-content-center">
                 <div class="row">
-                    <div class=" d-flex mx-5">
+                    <div class=" d-flex">
                        <a href="https://www.pokemon.com/us">
                          <img class="logo-1" src="assets/images/logo-pokemon-1.png" alt="">
                        </a>
@@ -41,10 +42,15 @@
             </div>
 
     </nav>
-    <div class="container">
-    <div class="row">
-      <ul class="ul-style d-flex justify-content-center">
-        <li class=" ">
+    <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
+      <ul class="ul-style ps-0 d-lg-flex justify-content-center d-block">
+        <li class="">
             <h5 class="li-set">Home</h5>
         </li>
         <li class="">
@@ -67,7 +73,74 @@
         </li>
       </ul>
     </div>
+  </div>
+</nav>
+
+</div>
+
+<div class="d-block d-lg-none">
+  
+    <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <div class="row">
+                    <div class=" d-flex">
+                       <a href="https://www.pokemon.com/us">
+                         <img class="logo-1" src="assets/images/logo-pokemon-1.png" alt="">
+                       </a>
+                       <a href="https://www.pokemon.com/us">
+                         <img class="logo-2 animate__animated animate__bounce" src="assets/images/logo-pokemoncenter-2.png" alt="">
+                       </a>
+                       <a href="https://corporate.pokemon.com/en-us/">
+                        <img class="logo-2 animate__animated animate__bounce" src="assets/images/corporate-en.png" alt="">
+                       </a>
+                        
+                        <a href="https://tcg.pokemon.com/en-us/">
+                            <img class="logo-tag d-lg-block d-none " src="assets/images/tcg-en-1.png" alt="">
+                        </a>
+                        <a href="https://legends.pokemon.com/en-us">
+                            <img class="logo-tag d-lg-block d-none" src="assets/images/pokemon-legends-en.png" alt="">
+                        </a>
+                        <a href="https://community.pokemon.com/en-us/">
+                            <img class="logo-tag d-lg-block d-none" src="assets/images/community-forums-en-1.png" alt="">
+                        </a>
+                    </div>
+                </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
+      <ul class="ul-style ps-0 d-lg-flex justify-content-center d-block">
+        <li class="">
+            <h5 class="li-set">Home</h5>
+        </li>
+        <li class="">
+            <h5 class="li-set-1">Pokédex</h5>
+        </li>
+        <li class="">
+            <h5 class="li-set-2">Video Games & Apps</h5>
+        </li>
+         <li class="">
+            <h5 class="li-set-3">Trading Card Game</h5>
+        </li>
+         <li class="">
+            <h5 class="li-set-4">Animation</h5>
+        </li>
+        <li class="">
+            <h5 class="li-set-5">Play! Pokémon Events</h5>
+        </li>
+        <li class="">
+            <h5 class="li-set-6">News</h5>
+        </li>
+      </ul>
     </div>
+  </div>
+</nav>
+</div>
+
+
+
+
 
     <!-- <section class="mt-5">
         <div class="container">
@@ -308,7 +381,7 @@
             </a>
           </div>
         </div>
-  <div class="col-lg-4 px-0">
+  <div class="col-lg-4 mx-0">
          <div>
           <a class="text-decoration-none" href="https://www.pokemon.com/us/strategy/pokemon-tcg-strategy-shuffling-energy-with-yanmega-ex">
              <div>
@@ -517,14 +590,14 @@
 
   <footer>
   <div class="footer-bg ">
-      <div class="container">
-        <div class="row">
-         <div class="d-flex justify-content-center mt-5">
-           <div>
+      <div class="container d-flex justify-content-center mt-5">
+         <div class="row pe-4">
+          <div class="col-lg-6">
+             <div class="">
             <div>
               <h5 class="sign-heading-1">Sign up for Pokémon emails!</h5>
             </div>
-               <input class="footer-input-1" type="text" placeholder="Email">
+               <input class="footer-input-1 mt-2" type="text" placeholder="Email">
 
             <div class="d-flex">
              <div>
@@ -659,8 +732,10 @@
             <button class="sign-btn mt-2">SIGN UP</button>
 
           </div>
+          </div>
 
-          <div class="d-flex flex-column mx-5">
+         <div class="col-lg-6">
+           <div class="d-flex flex-column ms-5 mt-3">
             <p class="like-para">I’d like to receive emails about:</p>
 
                <label>
@@ -675,16 +750,19 @@
 
               <label>
                 <input type="checkbox">
-                <span class="like-para"> I accept the Pokemon.com <a class="a-set-1" href="https://www.pokemon.com/us/legal/terms-of-use">Terms of Use</a> and <a class="a-set-1" href="https://www.pokemon.com/us/legal/privacy-notice">Privacy Notice</a></span>
+                <span class="like-para"> I accept the Pokemon.com <a class="a-set-1" href="https://www.pokemon.com/us/legal/terms-of-use">Terms of Use</a> and </span>
+                <p><a class="a-set-2 " href="https://www.pokemon.com/us/legal/privacy-notice">Privacy Notice</a></p>
               </label>
           </div>
          </div>
+         </div>
 
 
+          <div class="row mx-5">
 
-          <div class="col-lg-4 bg-border-right-1 mt-5">
+          <div class="col-lg-4 mt-5 ps-4 bg-border-right">
           <div>
-            <h5 class="company-heading mx-4">The Pokémon Company</h5>
+            <h5 class="company-heading ms-4">The Pokémon Company</h5>
           </div>
 
           <ul class="footer-ul">
@@ -713,30 +791,31 @@
          </div>
 
          
-         <div class="col-lg-4 bg-border-right-1 mt-5">
-          <div class="">
+         <div class="col-lg-4 mt-5 ps-4 bg-border-right">
+          <div class="ps-3">
            <a class="text-decoration-none" href="https://www.facebook.com/Pokemon/">
-             <i class="bi bi-facebook icons-bg mx-1"></i>
+             <i class="bi bi-facebook icons-bg ms-1"></i>
            </a>
            <a class="text-decoration-none" href="https://www.youtube.com/user/Pokemon">
-             <i class="bi bi-youtube icons-bg-1 mx-1"></i>
+             <i class="bi bi-youtube icons-bg-1 ms-1"></i>
            </a>
             <a class="text-decoration-none" href="https://x.com/pokemon">
-              <i class="bi bi-twitter icons-bg-2 mx-1"></i>
+              <i class="bi bi-twitter icons-bg-2 ms-1"></i>
             </a>
             <a class="text-decoration-none" href="https://www.instagram.com/pokemon">
-              <i class="bi bi-instagram icons-bg-3 mx-1"></i>
+              <i class="bi bi-instagram icons-bg-3 ms-1"></i>
             </a>
            <a class="text-decoration-none" href="https://www.pinterest.com/pokemon/">
-             <i class="bi bi-pinterest icons-bg-4 mx-1"></i>
+             <i class="bi bi-pinterest icons-bg-4 ms-1"></i>
            </a>
           </div>
          </div>
 
 
-         <div class="col-lg-4 mt-5">
+         <div class="col-lg-4 mt-5 ps-5">
           <div>
-            <ul class="footer-ul-2 p-0">
+            <img class="" src="assets/images/thepokemoncompanyinternational-seal-1596150491.png" alt="">
+            <ul class="footer-ul-2 p-0 ">
               <li>
                 <a class="li-a-style" href="/us/terms-of-use/">Terms of Use</a>
               </li>
@@ -754,7 +833,7 @@
               </li>
             </ul>
 
-            <span class="span-style">©2025 Pokémon. ©1995 - 2025 <br> Nintendo/Creatures Inc./GAME FREAK inc. TM,<br> ®Nintendo.</span>
+            <span class="span-style p-0">©2025 Pokémon. ©1995 - 2025 <br> Nintendo/Creatures Inc./GAME FREAK inc. TM, ®Nintendo.</span>
           </div>
          </div>
 

@@ -98,8 +98,10 @@ margin: 9px 5px;
   /* padding: 10px 15px; */
   /* height: 180.95px; */
   /* width: 230.19px; */
-  width: 60%;
+  max-width: 60%;
+  /* margin-top: -10px; */
    /* height: 149.95px; */
+   padding: 10px 10px 10px 10px;
 }
 
 .bg-style:hover{
@@ -1004,7 +1006,8 @@ margin: 9px 5px;
 
 .section-bg-img{
   background-image: url('../images/container_bg.png');
-   width: 1280px;
+  width: 1280px;
+  position: relative;
     /* height: 2415px; */
 
 }
@@ -1012,7 +1015,7 @@ margin: 9px 5px;
 
 .img-in-color{
   background-color: #ffff;
-  width: 900px;
+  max-width: 900px;
   /* height: 800px; */
 
 }
@@ -1030,7 +1033,7 @@ margin: 9px 5px;
 }
 
 .Yanmega-10{
-  width: 280.09px;
+  max-width: 280.09px;
 }
 
 
@@ -1058,29 +1061,29 @@ margin: 9px 5px;
 
 
 .img-style-1{
-  width: 281.19px;
+  max-width: 281.19px;
 }
 
 
 .width-img-section{
-   width: 281.19px;
+   max-width: 281.19px;
 }
 
 
 .tcg-img{
-  width: 40%;
+ max-width: 40%;
   height: inherit;
 }
 
 
 .last-small-section{
-   width: 281.19px;
+   max-width: 281.19px;
 }
 
 
 
 .img-in-color-1{
-   width: 900px;
+   max-width: 900px;
    background-color: #ffff;
    padding-bottom: 20px;
    border-bottom-left-radius: 10px;
@@ -1088,6 +1091,79 @@ margin: 9px 5px;
 }
 
 
+
+
+.sidebar {
+      width: 60px;
+      height: 150px;
+      background-color: #2c2c2c;
+      display: flex;
+      flex-direction: column;
+      border: 2px solid black; /* Border added */
+      border-radius: 0 15px 15px 0; /* Rounded right side */
+      overflow: hidden;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2); /* Optional shadow */
+      position: absolute;
+      left: 28px;
+      position: fixed;
+    }
+
+    .top-section, .bottom-section {
+      width: 100%;
+
+    }
+
+
+    .bottom-section :hover{
+      opacity: 0;
+    }
+
+    .login-button {
+      background-color: #4CAF50; /* Green */
+      color: white;
+      text-align: center;
+      padding: 14px 0;
+      cursor: pointer;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .login-button:hover{
+      opacity: 0.5;
+    }
+
+    .login-button img {
+      width: 24px;
+      height: 24px;
+      display: block;
+      margin: 0 auto 5px;
+    }
+
+    .login-button span {
+      font-size: 12px;
+      display: block;
+    }
+
+    .search-button {
+      background-color: #555;
+      padding: 14px 0;
+      text-align: center;
+      cursor: pointer;
+    }
+
+
+
+    .search-button img {
+      width: 24px;
+      height: 24px;
+      margin-left: 15px;
+      margin-top: 10px;
+    }
+
+    .profile-img{
+      background-color: gray;
+      border-radius: 50px;
+      border: 1px solid gray;
+    }
 
 
     
